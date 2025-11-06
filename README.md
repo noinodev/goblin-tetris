@@ -1,7 +1,7 @@
 # Goblin Tetris
 
 ---
-![goblin tetris](https://i.imgur.com/aMxpAPE.mp4)
+![goblin tetris](goblin-tetris.png)
 ---
 
 Asymmetric multiplayer Tetris where one player drops pieces while others play as goblins 
