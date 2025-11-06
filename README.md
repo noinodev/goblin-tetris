@@ -2,6 +2,8 @@
 
 ![goblin tetris](goblin-tetris.png)
 
+---
+
 Asymmetric multiplayer Tetris where one player drops pieces while others play as goblins 
 trying to survive. Features custom P2P networking with UDP hole-punching and hand-crafted 
 puzzle levels.
