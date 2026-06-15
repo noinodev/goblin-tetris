@@ -34,7 +34,7 @@ puzzle levels.
 ## Technical Features
 
 **Networking (Pure Java, no external libraries):**
-- Custom UDP protocol with NAT traversal via STUN server
+- Custom UDP protocol with NAT traversal
 - P2P game state synchronization for real-time multiplayer
 - Asymmetric game state replication (host authority model)
 - Real-time text chat protocol
