@@ -111,15 +111,15 @@ class config extends scene { // config menu
             case 2: // USER SETTINGS MENU
                 String uname = (String)main.cfg.get("username");
                 String name = draw.drawTextfield("USERNAME",uname,20,30+10*3,main.FRAMEBUFFER_W-40,10);
-                if(name != "") main.cfg.put("username",name.replace(" ",""));
+                if(!name.isEmpty()) main.cfg.put("username",name.replace(" ",""));
 
                 String uip = (String)main.cfg.get("networkip");
                 String ip = draw.drawTextfield("SERVER HOSTNAME",uip,20,30+10,main.FRAMEBUFFER_W-40,10);
-                if(ip != "") main.cfg.put("networkip",ip);
+                if(!ip.isEmpty()) main.cfg.put("networkip",ip);
 
                 String uport = ((Integer)main.cfg.get("networkport")).toString();
                 String port = draw.drawTextfield("SERVER PORT",uport,20,30+10*2,main.FRAMEBUFFER_W-40,10);
-                if(port != "") main.cfg.put("networkport",Integer.getInteger(port));
+                if(!port.isEmpty()) main.cfg.put("networkport",Integer.parseInt(port));
             break;
         }
 

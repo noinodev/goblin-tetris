@@ -1,16 +1,17 @@
 {
    "level":0,
-   "networkip":"LOCALHOST",
+   "networkip":"127.0.0.1",
    "video.colouring":1,
    "sound":1,
-   "ai":1,
+   "ai":0,
    "profiler":0,
-   "networkport":22565,
+   "video.subpx":1,
+   "networkport":16969,
    "extend":1,
    "music":1,
-   "light":10,
+   "light":0,
    "video.particles":1,
    "width":10,
    "height":20,
-   "username":"GOBLINMAXXER"
+   "username":"MONKEY"
 }

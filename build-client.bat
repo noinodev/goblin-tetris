@@ -1,4 +1,4 @@
-javac -d bin/client src/*.java
+javac --release 11 -d bin/client src/*.java
 echo Main-Class: Tetris2805 > bin/client/manifest.txt
 xcopy "src\resources\assets" "bin\client\resources\assets" /E /I /Y /Q
 xcopy "src\resources\load" "bin\client\resources\load" /E /I /Y /Q

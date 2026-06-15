@@ -10,6 +10,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.*;
 
+
 class GM {
     public static final byte GM_OFFLINE = 0;
     public static final byte GM_HOST = 1;
@@ -214,7 +215,7 @@ public class Tetris2805 extends JPanel implements ActionListener {
         gameShouldClose = 0;
         gamemode = GM.GM_OFFLINE;
         gamemode_last = gamemode;
-        working_directory = Path.of("").toAbsolutePath();
+        working_directory = Paths.get("").toAbsolutePath();
 
         scores = loadData("src/data/highscore.json",ParseFormat.JSON);
         if(scores == null) scores = new HashMap<>();

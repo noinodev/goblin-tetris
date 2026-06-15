@@ -12,5 +12,6 @@
    "username":"FORTNITE",
    "video.colouring":1,
    "video.particles":1,
+   "video.subpx":1,
    "light":4
 }

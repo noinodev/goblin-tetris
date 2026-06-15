@@ -533,7 +533,10 @@ class Game extends scene { // main gameplay scene, i put it in its own class fil
         // draw darkness layer
         if((int)main.frame%60==0){
             dark2d.setComposite(AlphaComposite.Src);
-            dark2d.setColor(new Color(0,0,5,Math.min((int)(255*globallight*0.9),255)));
+            int alpha = (int)(255 * globallight * 0.9);
+			alpha = Math.max(0, Math.min(alpha, 255));
+
+			dark2d.setColor(new Color(0, 0, 5, alpha));
             dark2d.fillRect(0, 0, dark.getWidth(), dark.getHeight());
         }
 
