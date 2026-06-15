@@ -57,7 +57,7 @@ public class MatchmakingServer {
 
     public static void main(String[] args) throws Exception {
 
-        socket = new DatagramSocket(22565);
+        socket = new DatagramSocket(16969);
         System.out.println("Matchmaking server running on 22565");
 
         byte[] recvBuf = new byte[1024];
